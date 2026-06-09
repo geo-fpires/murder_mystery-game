@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "she shouldn't carry that heavy book alone.",
         "ms. rodrigues shouldn't carry that heavy book alone",
         "ms rodrigues shouldn't carry that heavy book alone.",
-        "ms rodrigues shouldn't carry the book alone."
+        "ms rodrigues shouldn't carry the book alone.",
         "ms rodrigues shouldn't carry the heavy book alone."
       ],
       coverImage: 'cartao_pista_3.png'
