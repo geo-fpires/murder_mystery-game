@@ -32,31 +32,33 @@ document.addEventListener('DOMContentLoaded', () => {
         'ms. rodrigues should be careful',
         'ms rodrigues should be careful.'
       ],
-      coverImage: 'cartao_pista_2.png' // Verifique este nome de arquivo!
+      coverImage: 'cartao_pista_2.png'
     },
     {
       id: 3,
-      story: 'At the language bookshelf, there were many books in different languages. Some books were small, but some were very big and heavy. Ms. Rodrigues chose one of the heaviest books, called “Great Crimes of the World”. She thought, “Maybe I shouldn’t carry this book alone, but I don’t have time to ask for help.” She took the book anyway and started walking to the main corridor.',
+      story: 'At the language bookshelf, there were many books in different languages. Some books were small, but some were very big and heavy. Ms. Rodrigues chose one of the heaviest books, called “Great Crimes of the World”. She thought, “Maybe I shouldn’t carry this book alone, but I don’t have time to ask for help.”. She took the book anyway and started walking to the main corridor.',
       question: 'What do you think Ms. Rodrigues shouldn’t do in this situation?',
       acceptableAnswers: [
         "she shouldn't carry that heavy book alone",
         "she shouldn't carry that heavy book alone.",
         "ms. rodrigues shouldn't carry that heavy book alone",
-        "ms rodrigues shouldn't carry that heavy book alone."
+        "ms rodrigues shouldn't carry that heavy book alone.",
+        "ms rodrigues shouldn't carry the book alone."
+        "ms rodrigues shouldn't carry the heavy book alone."
       ],
-      coverImage: 'cartao_pista_3.png' // Verifique este nome de arquivo!
+      coverImage: 'cartao_pista_3.png'
     },
     {
       id: 4,
-      story: 'At 7:20 p.m., Ms. Rodrigues was walking slowly along the main corridor, still carrying the heavy book. A student later said, “Ms. Rodrigues looked very worried. A few minutes later, I saw Mr. Bertolaccini. He was walking very fast towards the small garden. He wasn’t wearing his glasses, I think. He should probably wear her glasses at night, because the corridor is dark.”',
-      question: 'What does the student think Ms. White should do at night?',
+      story: 'At 7:20 p.m., Ms. Rodrigues was walking slowly along the main corridor, still carrying the heavy book. A student later said, “Ms. Rodrigues looked very worried. A few minutes later, I saw Mr. Bertolaccini. He was walking very fast towards the small garden. He wasn’t wearing his glasses, I think. He should probably wear his glasses at night, because the corridor is dark.”',
+      question: 'What does the student think Mr. Bertolaccini should do at night?',
       acceptableAnswers: [
-        'she should wear her glasses',
-        'she should wear her glasses.',
+        'he should wear his glasses',
+        'he should wear his glasses.',
         'mr bertolaccini should wear his glasses',
         'mr bertolaccini should wear his glasses.'
       ],
-      coverImage: 'cartao_pista_4.png' // Verifique este nome de arquivo!
+      coverImage: 'cartao_pista_4.png'
     },
     {
       id: 5,
@@ -68,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'i should go and check',
         'i should go and check.'
       ],
-      coverImage: 'cartao_pista_5.png' // Verifique este nome de arquivo!
+      coverImage: 'cartao_pista_5.png'
     },
     {
       id: 6,
@@ -78,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'they should check the lavabo carefully',
         'they should check the lavabo carefully.'
       ],
-      coverImage: 'cartao_pista_6.png' // Verifique este nome de arquivo!
+      coverImage: 'cartao_pista_6.png'
     },
     {
       id: 7,
@@ -90,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'they should start the investigation at the reception',
         'they should start the investigation at the reception.'
       ],
-      coverImage: 'cartao_pista_7.png' // Verifique este nome de arquivo!
+      coverImage: 'cartao_pista_7.png'
     }
   ];
   // --- Fim de TODAS AS PISTAS ---
