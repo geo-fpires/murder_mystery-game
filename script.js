@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const allClues = [
     {
       id: 1,
-      story: 'At 7:00 p.m., Ms. Rodrigues was sitting on the reception. She was waiting for someone, but she looked very nervous. She was tapping her foot and checking her watch. There were two other students there, but they were listening to music and didn’t notice her. Mss. Rodrigues thought, “Maybe I should talk to the secretary about the book I wanted to borrow,” and then she stood up.',
+      story: 'At 7:00 p.m., Ms. Rodrigues was sitting on the reception. She was waiting for someone, but she looked very nervous. She was tapping her foot and checking her watch. There were two other students there, but they were listening to music and didn’t notice her. Ms. Rodrigues thought, “Maybe I should talk to the secretary about the book I wanted to borrow,” and then she stood up.',
       question: 'According to the story, what did Ms. Rodrigues think she should do?',
       acceptableAnswers: [
         'she should talk to the secretary',
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 2,
-      story: 'At 7:10 p.m., Mss. Rodrigues arrived at the secretary desk. She said, “I would like to borrow a book from the language shelf.” The secretary answered, “You can borrow a book, but you should be careful. Some books are very old and very heavy.” Mss. Rodrigues smiled and said, “Don’t worry, I will be careful,” and then she walked away.',
+      story: 'At 7:10 p.m., Ms. Rodrigues arrived at the secretary desk. She said, “I would like to borrow a book from the language shelf.” The secretary answered, “You can borrow a book, but you should be careful. Some books are very old and very heavy.” Ms. Rodrigues smiled and said, “Don’t worry, I will be careful,” and then she walked away.',
       question: 'What does the secretary say, Ms. Rodrigues should be?',
       acceptableAnswers: [
         'she should be careful',
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 3,
-      story: 'At the language shelf, there were many books in different languages. Some books were small, but some were very big and heavy. Mss. Rodrigues chose one of the heaviest books, called “Great Crimes of the World”. She thought, “Maybe I shouldn’t carry this book alone, but I don’t have time to ask for help.” She took the book anyway and started walking to the main corridor.',
+      story: 'At the language shelf, there were many books in different languages. Some books were small, but some were very big and heavy. Ms. Rodrigues chose one of the heaviest books, called “Great Crimes of the World”. She thought, “Maybe I shouldn’t carry this book alone, but I don’t have time to ask for help.” She took the book anyway and started walking to the main corridor.',
       question: 'What do you think Ms. Rodrigues shouldn’t do in this situation?',
       acceptableAnswers: [
         "she shouldn't carry that heavy book alone",
@@ -48,13 +48,13 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 4,
-      story: 'At 7:20 p.m., Ms. Rodrigues was walking slowly along the main corridor, still carrying the heavy book. A student later said, “Ms. Rodrigues looked very worried. A few minutes later, I saw Mr. Paulo. He was walking very fast towards the small garden. He wasn’t wearing his glasses, I think. He should probably wear her glasses at night, because the corridor is dark.”',
+      story: 'At 7:20 p.m., Ms. Rodrigues was walking slowly along the main corridor, still carrying the heavy book. A student later said, “Ms. Rodrigues looked very worried. A few minutes later, I saw Mr. Bertolaccini. He was walking very fast towards the small garden. He wasn’t wearing his glasses, I think. He should probably wear her glasses at night, because the corridor is dark.”',
       question: 'What does the student think Ms. White should do at night?',
       acceptableAnswers: [
         'she should wear her glasses',
         'she should wear her glasses.',
-        'mr paulo should wear his glasses',
-        'mr paulo should wear his glasses.'
+        'mr bertolaccini should wear his glasses',
+        'mr bertolaccini should wear his glasses.'
       ],
       coverImage: 'cartao_pista_4.png' // Verifique este nome de arquivo!
     },
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 6,
-      story: 'At around 7:27 p.m., another student was in the bathroom. They heard someone running in the corridor. They couldn’t see the person clearly, but they saw a shadow go into the lavabo. A few minutes later, Mr. Paulo came out of the lavabo. He looked pale and had a small cut on his right hand. He said, “I need to find my glasses.” The student later told the police, “They should check the lavabo carefully.”',
+      story: 'At around 7:27 p.m., another student was in the bathroom. They heard someone running in the corridor. They couldn’t see the person clearly, but they saw a shadow go into the lavabo. A few minutes later, Mr. Bertolaccini came out of the lavabo. He looked pale and had a small cut on his right hand. He said, “I need to find my glasses.” The student later told the police, “They should check the lavabo carefully.”',
       question: 'What does the student say the police should do?',
       acceptableAnswers: [
         'they should check the lavabo carefully',
