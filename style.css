@@ -170,7 +170,7 @@ body::before {
 /* Responsivo */
 @media (max-width: 480px) {
   .card {
-    height: 530px; /* Ajuste para telas menores, se necessário */
+    height: 500px; /* Ajuste para telas menores, se necessário */
   }
   .clue-story {
     font-size: 14px; /* Fonte menor em telas pequenas */
