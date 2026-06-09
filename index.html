@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Murder Mystery – Clue</title>
+
+  <!-- Fonte de máquina de escrever -->
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="overlay">
+    <div class="card-wrapper">
+      <div class="card" id="flip-card">
+        <!-- Frente do card: só a imagem da placa "1" -->
+        <div class="card-face card-front"></div>
+
+        <!-- Verso do card: onde aparece a história + pergunta + input -->
+        <div class="card-face card-back">
+          <div class="clue-content">
+            <p id="clue-story" class="clue-story">
+              Loading clue...
+            </p>
+
+            <div class="question-area">
+              <p id="clue-question" class="clue-question">
+                What is your answer, detective?
+              </p>
+
+              <input
+                type="text"
+                id="answer-input"
+                placeholder="TYPE YOUR ANSWER HERE"
+                autocomplete="off"
+              >
+
+              <button id="submit-answer">SUBMIT</button>
+            </div>
+
+            <div id="message-area" class="message-area"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
