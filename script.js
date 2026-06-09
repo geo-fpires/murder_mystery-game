@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 7,
-      story: 'At 8:00 p.m., the police arrived at the school. They first went to the reception area and talked to the students there. One student said, “You should start the investigation here, because Mr. Brown was sitting on these sofas before everything happened.” Later, the police searched the rest of the school and found something in the lavabo: a pair of broken glasses and a small drop of blood. Meanwhile, in the corridor near the language shelf, they discovered Mr. Brown’s body with a head injury and the heavy book on the floor.',
+      story: 'At 8:00 p.m., the police arrived at the school. They first went to the reception area and talked to the students there. One student said, “You should start the investigation here, because Mr. Brown was sitting on these sofas before everything happened.” Later, the police searched the rest of the school and found something in the lavabo: a pair of broken glasses and a small drop of blood.',
       question: 'According to the student, where should the police start the investigation?',
       acceptableAnswers: [
         'they should start the investigation in the reception',
