@@ -74,11 +74,11 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 6,
-      story: 'At around 7:27 p.m., another student was in the bathroom. They heard someone running in the corridor. They couldn’t see the person clearly, but they saw a shadow go into the lavabo. A few minutes later, Mr. Bertolaccini came out of the lavabo. He looked pale and had a small cut on his right hand. He said, “I need to find my glasses.” The student later told the police, “They should check the lavabo carefully.”',
+      story: 'At around 7:27 p.m., a student was in one of the classrooms. They heard someone running in the corridor. They couldn’t see the person clearly, but they saw a shadow go into the lavabo. A few minutes later, Mr. Bertolaccini came out of the lavabo. He looked pale and had a small cut on his right hand. He said, “I need to find my glasses.” The student later told the police, “They should check the lavabo.”',
       question: 'What does the student say the police should do?',
       acceptableAnswers: [
-        'they should check the lavabo carefully',
-        'they should check the lavabo carefully.'
+        'they should check the lavabo',
+        'they should check the lavabo.'
       ],
       coverImage: 'cartao_pista_6.png'
     },
