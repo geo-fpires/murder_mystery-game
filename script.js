@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 3,
-      story: 'At the language shelf, there were many books in different languages. Some books were small, but some were very big and heavy. Ms. Rodrigues chose one of the heaviest books, called “Great Crimes of the World”. She thought, “Maybe I shouldn’t carry this book alone, but I don’t have time to ask for help.” She took the book anyway and started walking to the main corridor.',
+      story: 'At the language bookshelf, there were many books in different languages. Some books were small, but some were very big and heavy. Ms. Rodrigues chose one of the heaviest books, called “Great Crimes of the World”. She thought, “Maybe I shouldn’t carry this book alone, but I don’t have time to ask for help.” She took the book anyway and started walking to the main corridor.',
       question: 'What do you think Ms. Rodrigues shouldn’t do in this situation?',
       acceptableAnswers: [
         "she shouldn't carry that heavy book alone",
