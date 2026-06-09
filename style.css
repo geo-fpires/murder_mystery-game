@@ -62,7 +62,10 @@ body::before {
 .card-face {
   position: absolute;
   inset: 0;
-  backface-visibility: hidden
+  backface-visibility: hidden;
+  border-radius: 12px; /* Adicione ou ajuste este valor para arredondar os cantos */
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.7);
 }
 
 /* Frente = imagem da placa 1 */
