@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'mr brown should talk to the secretary',
       'mr brown should talk to the secretary.'
     ],
-    coverImage: 'Cartoes__Cena_de_crime.png'
+    coverImage: 'cartao_pista_1.png'
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'mr brown should be careful',
       'mr brown should be careful.'
     ],
-    coverImage: 'Cartao_Pista2.png'
+    coverImage: 'cartao_pista_2.png'
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "mr brown shouldn't carry that heavy book alone",
       "mr brown shouldn't carry that heavy book alone."
     ],
-    coverImage: 'Cartao_Pista3.png'
+    coverImage: 'cartao_pista_3.png'
   },
   {
     id: 4,
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'ms white should wear her glasses',
       'ms white should wear her glasses.'
     ],
-    coverImage: 'Cartao_Pista4.png'
+    coverImage: 'cartao_pista_4.png'
   },
   {
     id: 5,
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'i should go and check',
       'i should go and check.'
     ],
-    coverImage: 'Cartao_Pista5.png'
+    coverImage: 'cartao_pista_5.png'
   },
   {
     id: 6,
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'they should check the lavabo carefully',
       'they should check the lavabo carefully.'
     ],
-    coverImage: 'Cartao_Pista6.png'
+    coverImage: 'cartao_pista_6.png'
   },
   {
     id: 7,
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'they should start the investigation at the reception',
       'they should start the investigation at the reception.'
     ],
-    coverImage: 'Cartao_Pista7.png'
+    coverImage: 'cartao_pista_7.png'
   }
 ];
   // --- Fim de TODAS AS PISTAS ---
