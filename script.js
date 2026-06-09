@@ -15,49 +15,49 @@ document.addEventListener('DOMContentLoaded', () => {
       story: 'At 7:00 p.m., Mr. Brown was sitting on the reception sofas. He was waiting for someone, but he looked very nervous. He was tapping his foot and checking his watch. There were two other students there, but they were listening to music. Then, at 7:05, Mr. Brown stood up and walked to the secretary desk.',
       question: 'Where did Mr. Brown go after leaving the sofas?',
       correctAnswer: 'SECRETARY',
-      coverImage: 'Cartoes__Cena_de_crime.png' // Imagem para a Pista 1
+      coverImage: 'cartao_pista_1.png' // Imagem para a Pista 1
     },
     {
       id: 2,
       story: 'At 7:10 p.m., Mr. Brown arrived at the secretary desk. He asked, “Can I borrow a book from the language shelf?” The secretary answered, “Yes, you can. But you should be careful. Some books are very old and heavy.” Mr. Brown said, “I will be careful.” Then he walked towards the language shelf.',
       question: 'Where did Mr. Brown want to go?',
       correctAnswer: 'SHELF',
-      coverImage: 'Cartao_Pista2.png' // Exemplo: Imagem para a Pista 2
+      coverImage: 'cartao_pista_2.png' // Exemplo: Imagem para a Pista 2
     },
     {
       id: 3,
       story: 'At the language shelf, there were many books in different languages. Some books were bigger and heavier than others. Mr. Brown took one of the heaviest books. It was called “Great Crimes of the World”. He looked inside the book and then walked to the main corridor. He was holding the book very tightly.',
       question: 'Where did Mr. Brown go after taking the book?',
       correctAnswer: 'CORRIDOR',
-      coverImage: 'Cartao_Pista3.png' // Exemplo: Imagem para a Pista 3
+      coverImage: 'cartao_pista_3.png' // Exemplo: Imagem para a Pista 3
     },
     {
       id: 4,
       story: 'At 7:20 p.m., Mr. Brown was walking slowly along the main corridor. He was still carrying the heavy book. A student saw him and later said, “Mr. Brown looked worried. A few minutes later, I saw Ms. White. She was walking very fast towards the small garden. She wasn’t wearing her glasses, I think.”',
       question: 'Where was Ms. White going?',
       correctAnswer: 'GARDEN',
-      coverImage: 'Cartao_Pista4.png' // Exemplo: Imagem para a Pista 4
+      coverImage: 'cartao_pista_4.png' // Exemplo: Imagem para a Pista 4
     },
     {
       id: 5,
       story: 'At 7:25 p.m., a student was looking at the plants in the small garden. Suddenly, they heard a loud noise from the corridor. It sounded like a heavy object falling. The student looked up and saw a shadow moving quickly towards the bathrooms. The student was scared and didn’t move.',
       question: 'Where did the shadow go after the noise?',
       correctAnswer: 'BATHROOMS',
-      coverImage: 'Cartao_Pista5.png' // Exemplo: Imagem para a Pista 5
+      coverImage: 'cartao_pista_5.png' // Exemplo: Imagem para a Pista 5
     },
     {
       id: 6,
       story: 'At around 7:27 p.m., another student was washing their hands in the bathroom. They heard someone running in the corridor. They couldn’t see the person clearly, but they saw a shadow go into the lavabo. A few minutes later, Ms. White came out of the lavabo. She looked pale and had a small cut on her right hand. She said, “I need to find my glasses.” Then she walked away quickly.',
       question: 'Where did the shadow go before Ms. White came out?',
       correctAnswer: 'LAVABO',
-      coverImage: 'Cartao_Pista6.png' // Exemplo: Imagem para a Pista 6
+      coverImage: 'cartao_pista_6.png' // Exemplo: Imagem para a Pista 6
     },
     {
       id: 7,
       story: 'At 8:00 p.m., the police arrived. They first checked the reception area. Later, they searched the school and found something in the lavabo. On the floor, there was a pair of broken glasses and a small drop of blood. The glasses were not Mr. Brown’s. Meanwhile, in the corridor near the language shelf, they discovered Mr. Brown’s body. He had a head injury, and a heavy book – “Great Crimes of the World” – was on the floor beside him.',
       question: 'Where did the police begin the investigation?',
       correctAnswer: 'RECEPTION',
-      coverImage: 'Cartao_Pista7.png' // Exemplo: Imagem para a Pista 7
+      coverImage: 'cartao_pista_7.png' // Exemplo: Imagem para a Pista 7
     }
   ];
   // --- Fim de TODAS AS PISTAS ---
