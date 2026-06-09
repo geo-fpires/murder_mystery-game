@@ -11,13 +11,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const allClues = [
     {
       id: 1,
-      story: 'At 7:00 p.m., Mr. Brown was sitting on the reception sofas. He was waiting for someone, but he looked very nervous. He was tapping his foot and checking his watch. There were two other students there, but they were listening to music and didn’t notice him. Mr. Brown thought, “Maybe I should talk to the secretary about the book now,” and then he stood up.',
-      question: 'According to the story, what did Mr. Brown think he should do?',
+      story: 'At 7:00 p.m., Mss. Rodrigues was sitting on the reception sofas. She was waiting for someone, but she looked very nervous. She was tapping her foot and checking her watch. There were two other students there, but they were listening to music and didn’t notice her. Mss. Rodrigues thought, “Maybe I should talk to the secretary about the book I wanted to borrow,” and then she stood up.',
+      question: 'According to the story, what did Mss. Rodrigues think she should do?',
       acceptableAnswers: [
-        'he should talk to the secretary',
-        'he should talk to the secretary.',
-        'mr brown should talk to the secretary',
-        'mr brown should talk to the secretary.'
+        'she should talk to the secretary',
+        'she should talk to the secretary.',
+        'mss rodrigues should talk to the secretary',
+        'mss rodrigues should talk to the secretary.',
+        'mss. rodrigues should talk to the secretary.'
       ],
       coverImage: 'cartao_pista_1.png'
     },
@@ -71,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 6,
-      story: 'At around 7:27 p.m., another student was washing their hands in the bathroom. They heard someone running in the corridor. They couldn’t see the person clearly, but they saw a shadow go into the lavabo. A few minutes later, Ms. White came out of the lavabo. She looked pale and had a small cut on her right hand. She said, “I need to find my glasses.” The student later told the police, “They should check the lavabo carefully.”',
+      story: 'At around 7:27 p.m., another student was in the bathroom. They heard someone running in the corridor. They couldn’t see the person clearly, but they saw a shadow go into the lavabo. A few minutes later, Ms. White came out of the lavabo. She looked pale and had a small cut on her right hand. She said, “I need to find my glasses.” The student later told the police, “They should check the lavabo carefully.”',
       question: 'What does the student say the police should do?',
       acceptableAnswers: [
         'they should check the lavabo carefully',
