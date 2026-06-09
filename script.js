@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const allClues = [
     {
       id: 1,
-      story: 'At 7:00 p.m., Mss. Rodrigues was sitting on the reception. She was waiting for someone, but she looked very nervous. She was tapping her foot and checking her watch. There were two other students there, but they were listening to music and didn’t notice her. Mss. Rodrigues thought, “Maybe I should talk to the secretary about the book I wanted to borrow,” and then she stood up.',
+      story: 'At 7:00 p.m., Ms. Rodrigues was sitting on the reception. She was waiting for someone, but she looked very nervous. She was tapping her foot and checking her watch. There were two other students there, but they were listening to music and didn’t notice her. Mss. Rodrigues thought, “Maybe I should talk to the secretary about the book I wanted to borrow,” and then she stood up.',
       question: 'According to the story, what did Ms. Rodrigues think she should do?',
       acceptableAnswers: [
         'she should talk to the secretary',
