@@ -46,7 +46,7 @@ body::before {
 .card {
   width: 100%;
   max-width: 320px;
-  height: 500px; /* Aumentado de 480px para 580px */
+  height: 510px; /* Aumentado de 480px para 580px */
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.7s ease;
