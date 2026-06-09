@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 7,
-      story: 'At 8:00 p.m., the police arrived at the school. They first went to the reception area and talked to the students there. One student said, “You should start the investigation here, because Ms. Rodrigues was sitting on these sofas before everything happened.” Later, the police searched the rest of the school and found something in the lavabo: a pair of broken glasses and a small drop of blood.',
+      story: 'At 8:00 p.m., the police arrived at the school. They first went to the reception area and talked to the students there. One student said, “You should start the investigation here, because Ms. Rodrigues was sitting on these sofas before everything happened.” Later, the police found something in the lavabo: a pair of broken glasses and a small drop of blood.',
       question: 'According to the student, where should the police start the investigation?',
       acceptableAnswers: [
         'they should start the investigation in the reception',
