@@ -167,6 +167,87 @@ body::before {
   color: #e74c3c;
 }
 
+/* Painel do professor */
+.teacher-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.teacher-label {
+  font-size: 12px;
+  color: #aaa;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.student-answer-display {
+  font-size: 14px;
+  color: #f5f5f5;
+  font-style: italic;
+  margin: 0 0 6px 0;
+  text-align: center;
+}
+
+#password-input {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #777;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #f5f5f5;
+  font-family: 'Special Elite', monospace;
+  font-size: 14px;
+  text-align: center;
+}
+
+.teacher-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+#confirm-btn {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Special Elite', monospace;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+#confirm-btn:hover {
+  background-color: #27ae60;
+}
+
+#cancel-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Special Elite', monospace;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+#cancel-btn:hover {
+  background-color: #c0392b;
+}
+
+.password-error {
+  color: #e74c3c;
+  font-size: 13px;
+  margin: 0;
+}
+
 /* Responsivo */
 @media (max-width: 480px) {
   .card {
