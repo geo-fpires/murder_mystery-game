@@ -1,5 +1,3 @@
-/* style.css */
-
 * {
   box-sizing: border-box;
 }
@@ -8,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  font-family: 'Special Elite', monospace; /* máquina de escrever */
+  font-family: 'Special Elite', monospace;
   color: #f5f5f5;
   display: flex;
   justify-content: center;
@@ -16,7 +14,7 @@ body {
   background: #000;
 }
 
-/* Fundo com a imagem da cena do crime */
+/* Fundo com a cena do crime */
 body::before {
   content: "";
   position: fixed;
@@ -26,7 +24,6 @@ body::before {
   z-index: -2;
 }
 
-/* Leve escurecida por cima para o card se destacar */
 .overlay {
   width: 100%;
   max-width: 480px;
@@ -34,7 +31,6 @@ body::before {
   margin: 0 auto;
 }
 
-/* Card central */
 .card-wrapper {
   perspective: 1000px;
   display: flex;
@@ -42,11 +38,11 @@ body::before {
   align-items: center;
 }
 
-/* Container do card (para o flip) */
+/* Card: altura flexível */
 .card {
   width: 100%;
   max-width: 320px;
-  height: 510px; /* Aumentado de 480px para 580px */
+  min-height: 460px; /* altura mínima confortável */
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.7s ease;
@@ -58,64 +54,65 @@ body::before {
   transform: rotateY(180deg);
 }
 
-/* Faces do card */
+/* Faces */
 .card-face {
   position: absolute;
   inset: 0;
   backface-visibility: hidden;
   border-radius: 12px;
-  overflow: hidden;
+  overflow: visible; /* importante: deixa crescer pra baixo */
   box-shadow: 0 10px 30px rgba(0,0,0,0.7);
 }
 
-/* Frente = imagem da placa 1 */
+/* Frente: imagem definida no JS */
 .card-front {
-  /* O background-image é definido pelo JavaScript */
 }
 
-/* Verso = por enquanto cor escura; depois você pode colocar uma imagem */
+/* Verso: deixa crescer com o conteúdo */
 .card-back {
-  background-color: rgba(0, 0, 0, 0.85); /* Fundo escuro semi-transparente */
+  background-color: rgba(0, 0, 0, 0.85);
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 20px;
   text-align: center;
 }
 
+/* Conteúdo interno */
 .clue-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  height: 100%; /* Garante que o conteúdo ocupe a altura total disponível */
   width: 100%;
-  max-width: 280px; /* Limita a largura para o texto não ficar muito esticado */
+  max-width: 280px;
 }
 
+/* História */
 .clue-story {
-  font-size: 15px; /* Ajustado para caber mais texto */
+  font-size: 15px;
   margin-bottom: 15px;
   line-height: 1.4;
   text-align: center;
 }
 
+/* Pergunta + input */
 .question-area {
   width: 100%;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .clue-question {
-  font-size: 16px; /* Ajustado para ser um pouco maior que a história */
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
 }
 
 #answer-input {
-  width: 90%;
+  width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #777;
@@ -132,7 +129,7 @@ body::before {
 }
 
 #submit-answer {
-  background-color: #e74c3c; /* Vermelho para o botão */
+  background-color: #e74c3c;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -152,10 +149,10 @@ body::before {
   cursor: not-allowed;
 }
 
+/* Mensagens / painel professor */
 .message-area {
-  min-height: 32px;
-  margin-top: 10px; /* Aumentado para dar mais espaço */
-  font-size: 14px; /* Ajustado para ser um pouco maior */
+  margin-top: 10px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -251,12 +248,12 @@ body::before {
 /* Responsivo */
 @media (max-width: 480px) {
   .card {
-    height: 500px; /* Ajuste para telas menores, se necessário */
+    min-height: 440px;
   }
   .clue-story {
-    font-size: 14px; /* Fonte menor em telas pequenas */
+    font-size: 14px;
   }
   .clue-question {
-    font-size: 15px; /* Fonte menor em telas pequenas */
+    font-size: 15px;
   }
 }
