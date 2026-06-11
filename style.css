@@ -212,7 +212,7 @@ body::before {
 }
 
 #confirm-btn {
-  background-color: #007933;
+  background-color: #008237;
   color: white;
   border: none;
   padding: 8px 16px;
@@ -224,7 +224,7 @@ body::before {
 }
 
 #confirm-btn:hover {
-  background-color: #27ae60;
+  background-color: #006229;
 }
 
 #cancel-btn {
@@ -240,7 +240,7 @@ body::before {
 }
 
 #cancel-btn:hover {
-  background-color: #c0392b;
+  background-color: #800c00;
 }
 
 .password-error {
