@@ -138,7 +138,7 @@ body::before {
   font-family: 'Special Elite', monospace;
   font-size: 15px;
   transition: background-color 0.3s ease;
-  width: 100%;          /* ocupa a largura total do question-area */
+  width: 50%;
   align-self: center;
 }
 
