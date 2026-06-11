@@ -143,7 +143,7 @@ body::before {
 }
 
 #submit-answer:hover {
-  background-color: #c0392b;
+  background-color: #800c00;
 }
 
 #submit-answer:disabled {
