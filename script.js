@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const messageArea  = document.getElementById('message-area');
 
   // Senha do professor (troque aqui)
-  const TEACHER_PASSWORD = 'minhasenha123';
+  const TEACHER_PASSWORD = 'master_key';
 
   const allClues = [
     {
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
     messageArea.className = 'message-area';
     messageArea.innerHTML = `
       <div class="teacher-panel">
-        <p class="teacher-label">STUDENT'S ANSWER:</p>
+        <p class="teacher-label">DETECTIVE'S ANSWER:</p>
         <p class="student-answer-display">"${studentAnswer}"</p>
         <input
           type="password"
