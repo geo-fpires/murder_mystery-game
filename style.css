@@ -129,7 +129,7 @@ body::before {
 }
 
 #submit-answer {
-  background-color: #e74c3c;
+  background-color: #c61300;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -224,11 +224,11 @@ body::before {
 }
 
 #confirm-btn:hover {
-  background-color: #27ae60;
+  background-color: #007933;
 }
 
 #cancel-btn {
-  background-color: #e74c3c;
+  background-color: #c61300;
   color: white;
   border: none;
   padding: 8px 16px;
