@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const messageArea  = document.getElementById('message-area');
 
   // Senha do professor (troque aqui)
-  const TEACHER_PASSWORD = 'master_key';
+  const TEACHER_PASSWORD = 'unlockclue';
 
   const allClues = [
     {
