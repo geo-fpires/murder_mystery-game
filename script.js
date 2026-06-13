@@ -13,44 +13,49 @@ document.addEventListener('DOMContentLoaded', () => {
   const allClues = [
     {
       id: 1,
-      story: 'At 7:00 p.m., Ms. Rodrigues was sitting on the reception. She was waiting for someone, but she looked very nervous. She was tapping her foot and checking her watch. There were two other students there, but they were listening to music and didn’t notice her. Ms. Rodrigues thought, “Maybe I should talk to the secretary about the book I wanted to borrow,” and then she stood up.',
-      question: 'According to the story, what did Ms. Rodrigues think she should do?',
+      story: `The police first interviewed Mr. Silva at the reception. He said, "At 6:30 p.m., Professor Pires came to my desk. He said he was going to meet someone in the library at 8:00 p.m. He looked nervous, but he was trying to act calm. I was going to ask him more questions, but the phone rang, and I had to answer it."`,
+      question: `What was Professor Pires going to do at 8:00 p.m.?`,
       coverImage: 'card_clue_1.png'
     },
     {
       id: 2,
-      story: 'At 7:10 p.m., Ms. Rodrigues arrived at the secretary desk. She said, “I would like to borrow a book from the language shelf.” The secretary answered, “You can borrow a book, but you should be careful. Some books are very old and very heavy.” Ms. Rodrigues smiled and said, “Don’t worry, I will be careful,” and then she walked away.',
-      question: 'What does the secretary say Ms. Rodrigues should be?',
+      story: `Next, the police questioned Mr. Costa, a student near the language bookshelf. He said, "I was going to borrow a grammar book, but I saw Ms. Brito carrying a red envelope. She said, 'Good evening, Mr. Costa! Oh, this envelope? I'm going to leave it with the librarian, it's very important.'. She looked worried, like she was hiding something, but she did not say what."`,
+      question: `What was Ms. Brito going to do with the red envelope?`,
       coverImage: 'card_clue_2.png'
     },
     {
       id: 3,
-      story: 'At the language bookshelf, there were many books in different languages. Some books were small, but some were very big and heavy. Ms. Rodrigues chose one of the heaviest books, called “Great Crimes of the World”. She thought, “Maybe I shouldn’t carry this book alone, but I don’t have time to ask for help.” She took the book anyway and started walking to the main corridor.',
-      question: 'What do you think Ms. Rodrigues shouldn’t do in this situation?',
+      story: `Then the police interviewed the librarian, Mrs. Vaz. She explained, "I was going to close the library early because of a small problem with the lights, but Professor Pires arrived and asked if he could use the heavy shelf in the back. He said, 'I'm going to organize some old papers.'. I told him to be careful, because the books were very heavy."`,
+      question: `What was the librarian going to do?`,
       coverImage: 'card_clue_3.png'
     },
     {
       id: 4,
-      story: 'At 7:20 p.m., Ms. Rodrigues was walking slowly along the main corridor, still carrying the heavy book. A student later said, “Ms. Rodrigues looked very worried. A few minutes later, I saw Mr. Bertolaccini. He was walking very fast towards the small garden. He wasn’t wearing his glasses, I think. He should probably wear his glasses at night, because the corridor is dark.”',
-      question: 'What does the student think Mr. Bertolaccini should do at night?',
+      story: `After that, the police spoke with Mrs. Martinelli, the janitor. She said, "I was going to mop the main corridor, but I saw two teachers arguing. The man said, 'I'm going to tell him tonight.' and the woman answered, 'You are not going to do that.'. They both walked away quickly. I didn't see where they went, but they looked very tense."`,
+      question: `What was the woman going to do?`,
       coverImage: 'card_clue_4.png'
     },
     {
       id: 5,
-      story: 'At 7:25 p.m., a student was looking at the plants in the small garden. Suddenly, they heard a loud noise from the corridor. It sounded like a heavy object falling on the floor. The student thought, “I should go and check, but I am scared.” They stayed in the garden and only watched. They saw a shadow moving quickly towards the bathrooms.',
-      question: 'What did the student think they should do after hearing the loud noise?',
+      story: `The next interview was with Mr. Harb, the school nurse. He said, "I was going home, but I remembered I needed to return a key to the infirmary. Then, I heard footsteps in the corridor. Someone was talking about a folder and saying they were going to explain everything tomorrow. I didn't ask questions, because I didn't want to get involved."`,
+      question: `What was Mr. Harb going to return?`,
       coverImage: 'card_clue_5.png'
     },
     {
       id: 6,
-      story: 'At around 7:27 p.m., another student was in the bathroom. They heard someone running in the corridor. They couldn’t see the person clearly, but they saw a shadow go into the lavabo. A few minutes later, Mr. Bertolaccini came out of the lavabo. He looked pale and had a small cut on his right hand. He said, “I need to find my glasses.” The student later told the police, “They should check the lavabo carefully.”',
-      question: 'What does the student say the police should do?',
+      story: `Later, the police questioned the security guard. He said, "I was going to lock the side gate at 7:30 p.m., but I noticed wet footprints near the garden. They seemed to come from the corridor. I also saw someone carrying a notebook and saying they were going to meet Professor Pires, but they turned around before I got close."`,
+      question: `Where did the wet footprints lead?`,
       coverImage: 'card_clue_6.png'
     },
     {
       id: 7,
-      story: 'At 8:00 p.m., the police arrived at the school. They first went to the reception area and talked to the students there. One student said, “You should start the investigation here, because Ms. Rodrigues was sitting on these sofas before everything happened.” Later, the police searched the rest of the school and found something in the lavabo: a pair of broken glasses and a small drop of blood.',
-      question: 'According to the student, where should the police start the investigation?',
+      story: `At the end of the night, the lead detective looked at all the notes again. 
+              He said, "We were going to focus on the library only, but that was a mistake. 
+              This investigation is going to start again from the beginning. 
+              The first person we talked to was the receptionist, and Professor Pires said he was going to meet someone. 
+              So we are going to go back to the reception and ask more questions. 
+              Maybe the real story is going to appear there."`,
+      question: `Where are the detectives going to go again?`,
       coverImage: 'card_clue_7.png'
     }
   ];
