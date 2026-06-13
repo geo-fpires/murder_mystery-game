@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const allClues = [
     {
       id: 1,
-      story: `The police first interviewed Mr. Silva at the reception. He said, "At 6:30 p.m., Professor Pires came to my desk. He said he was going to meet someone in the library at 8:00 p.m. He looked nervous, but he was trying to act calm. I was going to ask him more questions, but the phone rang, and I had to answer it."`,
+      story: `The police first interviewed Mr. Silva at the reception. He said, "At 6:30 p.m., Professor Pires came to my desk. He said he was going to meet someone in the library at 8:00 p.m. He looked nervous, but he was trying to act calm. I was going to ask him more questions, but the phone on my desk rang, and I had to answer it."`,
       question: `What was Professor Pires going to do at 8:00 p.m.?`,
       coverImage: 'card_clue_1.png'
     },
