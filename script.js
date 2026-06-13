@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 2,
       story: `Next, the police questioned Mr. Costa, a student near the language bookshelf. He said, "I was going to borrow a grammar book, but I saw Ms. Brito carrying a red envelope. She said, 'Good evening, Mr. Costa! Oh, this envelope? I'm going to leave it with the librarian, it's very important.'. She looked worried, like she was hiding something, but she did not say what."`,
-      question: `What was Ms. Brito going to do with the red envelope?`,
+      question: `What is Ms. Brito going to do with the red envelope?`,
       coverImage: 'card_clue_2.png'
     },
     {
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 4,
       story: `After that, the police spoke with Mrs. Martinelli, the janitor. She said, "I was going to mop the main corridor, but I saw two teachers arguing. The man said, 'I'm going to tell him tonight.' and the woman answered, 'You are not going to do that.'. They both walked away quickly. I didn't see where they went, but they looked very tense."`,
-      question: `What was the woman going to do?`,
+      question: `What is the woman going to do?`,
       coverImage: 'card_clue_4.png'
     },
     {
