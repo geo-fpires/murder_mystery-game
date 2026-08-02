@@ -18,10 +18,15 @@ body {
 body::before {
   content: "";
   position: fixed;
-  inset: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh; /* Evita que a imagem pule quando a barra do navegador some */
   background: url("background.jpg") center center / cover no-repeat;
   filter: brightness(0.55);
   z-index: -2;
+  transform: translateZ(0); /* Força o celular a travar a imagem no fundo (ótimo para iPhone) */
 }
 
 .overlay {
