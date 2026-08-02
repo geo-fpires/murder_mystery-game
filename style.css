@@ -262,3 +262,30 @@ body::before {
     font-size: 15px;
   }
 }
+
+/* ─────────── NOTA DE RODAPÉ ─────────── */
+.footer-note {
+  position: fixed;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-family: 'Special Elite', monospace;
+  font-size: 13px;
+  color: rgba(245, 245, 245, 0.5);
+  letter-spacing: 1px;
+  z-index: 10;
+  pointer-events: none; /* Garante que o fundo não atrapalhe o jogo */
+}
+
+.footer-note a {
+  color: rgba(245, 245, 245, 0.8); /* Um pouco mais visível que o resto do texto */
+  text-decoration: none;
+  pointer-events: auto; /* Permite que apenas o link seja clicado */
+  transition: color 0.3s ease;
+}
+
+.footer-note a:hover {
+  color: #ffcc00; /* Amarelo estilo placa de evidência/cena de crime */
+  text-decoration: underline;
+}
